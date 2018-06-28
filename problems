@@ -1,0 +1,28 @@
+
+升级 springboot 2.0遇到的坑
+springboot 2.0.3.RELEASE, springcloud版本Finchley.RELEASE
+
+1.eureka security basic认证  不能用了
+eureka-server端修改为：
+添加配置：
+@EnableWebSecurity
+	static class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+
+		@Override
+		public void configure(AuthenticationManagerBuilder auth) throws Exception {
+			auth.inMemoryAuthentication()
+					.passwordEncoder(NoOpPasswordEncoder.getInstance())
+					.withUser("iscas").password("iscas")
+					.authorities("ADMIN");
+		}
+		@Override
+		protected void configure(HttpSecurity http) throws Exception {
+			http.csrf()
+					.disable()
+					.authorizeRequests()
+					.anyRequest().authenticated()
+					.and()
+					.httpBasic();
+		}
+	}
+

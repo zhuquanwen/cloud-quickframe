@@ -1,3 +1,4 @@
 rootProject.name = 'cloud-quickframe'
 include 'discovery-eureka'
+include 'config-server'
 

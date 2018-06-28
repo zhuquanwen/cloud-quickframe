@@ -9,7 +9,6 @@ buildscript {
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
 
-
     }
 }
 
@@ -38,7 +37,7 @@ allprojects {
         testCompile "org.springframework.boot:spring-boot-starter-test"
         providedComplie "org.projectlombok:lombok:${lombokVersion}"
 //        compile group: 'io.spring.platform', name: 'platform-bom', version: 'Cairo-RELEASE', ext: 'pom'
-
+        compile('org.springframework.boot:spring-boot-starter-actuator')
     }
 
     dependencyManagement {

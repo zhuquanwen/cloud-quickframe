@@ -1,0 +1,70 @@
+server:
+  port: 1101
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/quanwen1989/cloud-quickframe-config.git
+          default-label: ${spring.profiles.active} #解决监控down
+          username: quanwenz@sina.cn
+          password: 12345678a
+          searchPaths: '{application}'
+          lone-on-start: true
+  autoconfigure:
+    #management.security.enabled = false 不能用了，用下面这个替换
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+#spring.security.basic.enabled: true
+#spring.security.user.name: iscas
+#spring.security.user.password: iscas
+
+
+
+
+---
+spring:
+  profiles: dev
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: cloud
+    password: cloud
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 20
+  client:
+    serviceUrl:
+      defaultZone: http://iscas:iscas@localhost:1001/eureka
+    registry-fetch-interval-seconds: 10
+    healthcheck:
+      enabled: true
+---
+spring:
+  profiles: prd
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: cloud
+    password: cloud
+  cloud:
+    config:
+      retry:
+        initial-interval: 3000
+        multiplier: 1.5
+        max-interval: 20000
+        max-attempts: 6
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
