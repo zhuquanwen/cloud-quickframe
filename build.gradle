@@ -1,0 +1,53 @@
+buildscript {
+    repositories {
+//        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+//        maven { url "https://oss.sonatype.org/content/groups/public/" }
+        maven { url "https://repo.spring.io/libs-milestone/" }
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+
+
+    }
+}
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'idea'
+    apply plugin: 'io.spring.dependency-management'
+    group = 'com.iscas.cloud.quickframe'
+    version = '1.0-SNAPSHOT'
+    sourceCompatibility = 1.8
+
+    repositories {
+//        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+//        maven { url "https://oss.sonatype.org/content/groups/public/" }
+        maven { url "https://repo.spring.io/libs-milestone/" }
+        jcenter()
+        mavenCentral()
+    }
+    configurations {
+        providedComplie
+
+    }
+
+    dependencies {
+        testCompile "org.springframework.boot:spring-boot-starter-test"
+        providedComplie "org.projectlombok:lombok:${lombokVersion}"
+//        compile group: 'io.spring.platform', name: 'platform-bom', version: 'Cairo-RELEASE', ext: 'pom'
+
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+//            mavenBom "io.spring.platform:platform-bom:${platformVersion}"
+        }
+    }
+
+
+
+}
