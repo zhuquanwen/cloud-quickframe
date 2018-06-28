@@ -1,0 +1,57 @@
+2018-06-28 20:09:20.602 INFO  com.iscas.cloud.quickframe.discovery.eureka.EurekaApplication Line:659 - No active profile set, falling back to default profiles: default
+2018-06-28 20:09:22.872 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Initializing ProtocolHandler ["http-nio-1001"]
+2018-06-28 20:09:22.891 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-06-28 20:09:22.891 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-28 20:09:22.903 INFO  org.apache.catalina.core.AprLifecycleListener Line:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Java\jdk1.8.0_172\jre\bin;E:\coding\maven\apache-maven-3.5.3\bin;E:\coding\gradle\gradle-4.7-rc-2\bin;E:\coding\git\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\zqw02\AppData\Local\Microsoft\WindowsApps;;E:\common\ssh shell;.]
+2018-06-28 20:09:23.250 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-06-28 20:09:23.597 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-28 20:09:23.612 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@281306bc
+2018-06-28 20:09:27.229 INFO  com.sun.jersey.server.impl.application.WebApplicationImpl Line:815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2018-06-28 20:09:27.291 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-28 20:09:27.292 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-28 20:09:27.419 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-28 20:09:27.420 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-28 20:09:28.209 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-28 20:09:29.964 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-28 20:09:29.964 INFO  com.netflix.discovery.DiscoveryClient Line:352 - Client configured to neither register nor query for data.
+2018-06-28 20:09:29.983 INFO  com.netflix.discovery.DiscoveryClient Line:365 - Discovery Client initialized at timestamp 1530187769980 with initial instances count: 0
+2018-06-28 20:09:30.061 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:63  - Initializing ...
+2018-06-28 20:09:30.104 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:151 - Finished initializing remote region registries. All known remote regions: []
+2018-06-28 20:09:30.107 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:70  - Initialized
+2018-06-28 20:09:30.377 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Starting ProtocolHandler ["http-nio-1001"]
+2018-06-28 20:09:30.399 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 - Using a shared selector for servlet write/read
+2018-06-28 20:09:30.400 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:242 - Got 1 instances from neighboring DS node
+2018-06-28 20:09:30.400 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:243 - Renew threshold is: 1
+2018-06-28 20:09:30.403 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:254 - Changing status to UP
+2018-06-28 20:09:30.444 INFO  com.iscas.cloud.quickframe.discovery.eureka.EurekaApplication Line:59  - Started EurekaApplication in 12.981 seconds (JVM running for 13.692)
+2018-06-28 20:09:30.448 INFO  com.iscas.cloud.quickframe.discovery.eureka.EurekaApplication Line:40  - eureka启动
+2018-06-28 20:10:30.408 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+2018-06-28 20:11:30.417 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 9ms
+2018-06-28 20:11:31.398 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-28 20:11:33.299 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:269 - Registered instance CONFIG-SERVER/localhost:config-server:1101 with status UP (replication=false)
+2018-06-28 20:12:30.423 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 5ms
+2018-06-28 20:13:30.427 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 4ms
+2018-06-28 20:14:30.433 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 6ms
+2018-06-28 20:15:30.446 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 13ms
+2018-06-28 20:16:30.456 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 9ms
+2018-06-28 20:17:30.469 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 13ms
+2018-06-28 20:18:30.471 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 1ms
+2018-06-28 20:19:30.479 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 8ms
+2018-06-28 20:20:30.487 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 7ms
+2018-06-28 20:21:30.491 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 2669ms
+2018-06-28 20:22:30.502 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 10ms
+2018-06-28 20:23:30.510 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 8ms
+2018-06-28 20:24:30.115 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:541 - Current renewal threshold is : 3
+2018-06-28 20:24:30.514 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 3ms
+2018-06-28 20:25:30.524 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 10ms
+2018-06-28 20:26:30.530 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 5ms
+2018-06-28 20:27:30.531 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+2018-06-28 20:28:30.545 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 14ms
+2018-06-28 20:29:30.556 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 10ms
+2018-06-28 20:30:30.559 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 3ms
+2018-06-28 20:31:30.567 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 7ms
+2018-06-28 20:32:30.573 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 6ms
+2018-06-28 20:33:30.584 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 10ms
+2018-06-28 20:34:30.584 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms
+2018-06-28 20:35:30.595 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 11ms
+2018-06-28 20:36:30.595 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1247 - Running the evict task with compensationTime 0ms

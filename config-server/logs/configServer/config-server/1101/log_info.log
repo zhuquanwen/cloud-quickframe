@@ -1,0 +1,45 @@
+2018-06-28 20:11:02.509 INFO  com.iscas.cloud.quickframe.config.server.ConfigServerApplication Line:659 - No active profile set, falling back to default profiles: default
+2018-06-28 20:11:07.422 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Initializing ProtocolHandler ["http-nio-1101"]
+2018-06-28 20:11:07.445 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-06-28 20:11:07.447 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-28 20:11:07.470 INFO  org.apache.catalina.core.AprLifecycleListener Line:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Java\jdk1.8.0_172\jre\bin;E:\coding\maven\apache-maven-3.5.3\bin;E:\coding\gradle\gradle-4.7-rc-2\bin;E:\coding\git\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\zqw02\AppData\Local\Microsoft\WindowsApps;;E:\common\ssh shell;.]
+2018-06-28 20:11:07.763 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-06-28 20:11:08.503 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-28 20:11:08.557 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2310dc2c
+2018-06-28 20:11:17.264 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-28 20:11:27.638 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-28 20:11:28.006 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-28 20:11:28.007 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-28 20:11:28.613 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-28 20:11:28.614 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-28 20:11:30.393 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-28 20:11:30.824 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-28 20:11:30.826 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-28 20:11:30.830 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-28 20:11:30.832 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-28 20:11:30.832 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-28 20:11:30.833 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-28 20:11:30.835 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-28 20:11:32.455 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-28 20:11:32.464 INFO  com.netflix.discovery.DiscoveryClient Line:1264 - Starting heartbeat executor: renew interval is: 30
+2018-06-28 20:11:32.470 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-28 20:11:32.480 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530187892477 with initial instances count: 0
+2018-06-28 20:11:32.496 INFO  com.netflix.discovery.DiscoveryClient Line:1299 - Saw local status change event StatusChangeEvent [timestamp=1530187892496, current=UP, previous=STARTING]
+2018-06-28 20:11:32.509 INFO  com.netflix.discovery.DiscoveryClient Line:826 - DiscoveryClient_CONFIG-SERVER/localhost:config-server:1101: registering service...
+2018-06-28 20:11:33.313 INFO  com.netflix.discovery.DiscoveryClient Line:835 - DiscoveryClient_CONFIG-SERVER/localhost:config-server:1101 - registration status: 204
+2018-06-28 20:11:33.497 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Starting ProtocolHandler ["http-nio-1101"]
+2018-06-28 20:11:33.535 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 - Using a shared selector for servlet write/read
+2018-06-28 20:11:33.594 INFO  com.iscas.cloud.quickframe.config.server.ConfigServerApplication Line:59  - Started ConfigServerApplication in 34.536 seconds (JVM running for 35.575)
+2018-06-28 20:12:02.478 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-28 20:12:02.479 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-28 20:12:02.479 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-28 20:12:02.480 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-28 20:12:02.480 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-28 20:12:02.481 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: false
+2018-06-28 20:12:02.481 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-28 20:12:02.561 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-28 20:16:30.853 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-28 20:21:28.190 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-28 20:26:28.197 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-28 20:31:28.206 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-28 20:36:28.212 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration

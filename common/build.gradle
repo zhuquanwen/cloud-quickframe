@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+}
+
+group 'com.iscas.cloud.quickframe'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    //redis
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+
+    //cache支持
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-cache'
+    //AOP
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop'
+    //bus amqp
+    compile('org.springframework.cloud:spring-cloud-starter-bus-amqp')
+    //JWT
+    compile group: 'io.jsonwebtoken', name: 'jjwt', version: "${jjwtVersion}"
+    //fastjson
+    compile group: 'com.alibaba', name: 'fastjson', version: "${fastjsonVersion}"
+    //util工具集
+    compile group: 'com.xiaoleilu', name: 'hutool-all', version: "${hutoolVersion}"
+    //commons-io
+    compile group: 'commons-io', name: 'commons-io', version: "${commonsioVesion}"
+    //配置属性加密工具
+    compile group: 'com.github.ulisesbocchio', name: 'jasypt-spring-boot-starter', version: "${jasyptVersion}"
+    // mybatis
+    compile group: 'com.baomidou', name: 'mybatis-plus', version: "${mybatisplusVersion}"
+    //断线重试
+    compile group: 'org.springframework.retry', name: 'spring-retry', version: "${springretryVesion}"
+    //hibernate validate
+    compile group: 'org.hibernate', name: 'hibernate-validator', version: "${hibernateValidateVersion}"
+    //fein-okhttp
+    compile group: 'com.netflix.feign', name: 'feign-okhttp', version: "${feignOkhttpVersion}"
+    //swagger
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: "${swaggerVersion}"
+    //fastdfs start
+    compile group: 'com.luhuiguo', name: 'fastdfs-spring-boot-starter', version: "${fastdfsVersion}"
+    //TTL
+    compile group: 'com.alibaba', name: 'transmittable-thread-local', version: "${ttlVersion}"
+
+}
