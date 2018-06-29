@@ -140,7 +140,7 @@ org.springframework.cloud.stream.binder.BinderException: Exception thrown while 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
-	at com.iscas.cloud.quickframe.config.server.ConfigServerApplication.main(ConfigServerApplication.java:19)
+	at ConfigServerApplication.main(ConfigServerApplication.java:19)
 Caused by: org.springframework.amqp.AmqpIllegalStateException: Fatal exception on listener startup
 	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doStart(SimpleMessageListenerContainer.java:500)
 	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:1164)

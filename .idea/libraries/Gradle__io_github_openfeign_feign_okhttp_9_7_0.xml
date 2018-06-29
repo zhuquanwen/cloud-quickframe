@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.openfeign:feign-okhttp:9.7.0">
+    <CLASSES>
+      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/io.github.openfeign/feign-okhttp/9.7.0/f760b2bce524ae353ba06e0dce465b21a14d3e1a/feign-okhttp-9.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/io.github.openfeign/feign-okhttp/9.7.0/62199644f9194f668d3124e4ebc4759212ca67e3/feign-okhttp-9.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

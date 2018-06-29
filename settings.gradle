@@ -2,6 +2,6 @@ rootProject.name = 'cloud-quickframe'
 include 'discovery-eureka'
 include 'config-server'
 include 'gate-zuul'
-findProject(':gate-zuul')?.name = 'gat-zuul'
 include 'common'
+include 'auth'
 

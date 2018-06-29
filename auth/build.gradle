@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'com.iscas.cloud.quickframe'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+configurations {
+    compile.exclude group: 'com.zaxxer'
+}
+
+dependencies {
+    compile project(':common')
+    compile('org.springframework.cloud:spring-cloud-starter-oauth2')
+//    compile('org.springframework.cloud:spring-cloud-starter-bus-amqp')
+    compile('org.springframework.cloud:spring-cloud-starter-openfeign')
+    compile('org.springframework.boot:spring-boot-starter-freemarker')
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
+    compile('mysql:mysql-connector-java')
+    compile('com.zaxxer:HikariCP')
+}

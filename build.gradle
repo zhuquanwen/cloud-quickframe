@@ -28,9 +28,11 @@ allprojects {
         jcenter()
         mavenCentral()
     }
-    configurations {
-        providedComplie
 
+    configurations {
+        compile.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+        compile.exclude group: 'org.apache.tomcat'
+        compile.exclude group: 'org.apache.tomcat.embed'
     }
 
     dependencies {

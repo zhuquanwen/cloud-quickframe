@@ -6,7 +6,7 @@ spring:
 
   application:
     name: discovery-eureka
-#  security:
+#  org.springframework.security:
 #    user:
 #      name: iscas
 #      password: iscas

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth.iml" filepath="$PROJECT_DIR$/.idea/modules/auth.iml" group="auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth/auth_main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth/auth_main.iml" group="auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth/auth_test.iml" filepath="$PROJECT_DIR$/.idea/modules/auth/auth_test.iml" group="auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-quickframe.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-quickframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-quickframe_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-quickframe_main.iml" group="cloud-quickframe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-quickframe_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-quickframe_test.iml" group="cloud-quickframe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-eureka.iml" group="discovery-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-eureka/discovery-eureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-eureka/discovery-eureka_main.iml" group="discovery-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-eureka/discovery-eureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-eureka/discovery-eureka_test.iml" group="discovery-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul.iml" filepath="$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul.iml" group="gate-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul_main.iml" group="gate-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul_test.iml" group="gate-zuul" />
+    </modules>
+  </component>
+</project>

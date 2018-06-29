@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba:transmittable-thread-local:2.2.0">
+    <CLASSES>
+      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.alibaba/transmittable-thread-local/2.2.0/6aaea7af1b8513b448abf187079f69d9fa2105a4/transmittable-thread-local-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.alibaba/transmittable-thread-local/2.2.0/d903b41a3b8b5f494235e2300f4bef168e085e8e/transmittable-thread-local-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

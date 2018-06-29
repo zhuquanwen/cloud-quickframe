@@ -25,4 +25,23 @@ eureka-server端修改为：
 					.httpBasic();
 		}
 	}
+详细见 https://github.com/spring-cloud/spring-cloud-netflix/issues/2754
 
+2. eureka ,feign引入路径改变
+3. 启动健康检查只能在properties文件中配置
+4.使用undertow ,在allprojects 处添加configurations
+configurations {
+    compile.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+    compile.exclude group: 'org.apache.tomcat'
+    compile.exclude group: 'org.apache.tomcat.embed'
+}
+
+5. spring-boot-starter-jdbc 2.X默认使用HikariCP，而不是tomcat的实现
+
+6.spring security4.x 升级到spring security 5.x，AuthenticationManager无法自动注入
+需要定义配置类继承WebSecurityConfigurerAdapter，手动注入bean
+ @Bean(name = BeanIds.AUTHENTICATION_MANAGER)
+    @Override
+    public AuthenticationManager authenticationManagerBean() throws Exception {
+        return super.authenticationManagerBean();
+    }

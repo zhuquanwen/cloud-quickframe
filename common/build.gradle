@@ -11,11 +11,18 @@ repositories {
     mavenCentral()
 }
 
+//configurations {
+//    compile.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+//    compile.exclude group: 'org.apache.tomcat'
+//    compile.exclude group: 'org.apache.tomcat.embed'
+//}
+
 dependencies {
 
     //redis
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-undertow'
 
     //cache支持
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-cache'
@@ -40,7 +47,7 @@ dependencies {
     //hibernate validate
     compile group: 'org.hibernate', name: 'hibernate-validator', version: "${hibernateValidateVersion}"
     //fein-okhttp
-    compile group: 'com.netflix.feign', name: 'feign-okhttp', version: "${feignOkhttpVersion}"
+    compile group: 'io.github.openfeign', name: 'feign-okhttp', version: "${feignOkhttpVersion}"
     //swagger
     compile group: 'io.springfox', name: 'springfox-swagger2', version: "${swaggerVersion}"
     //fastdfs start

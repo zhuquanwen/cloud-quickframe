@@ -1,4 +1,4 @@
-2018-06-28 20:11:02.509 INFO  com.iscas.cloud.quickframe.config.server.ConfigServerApplication Line:659 - No active profile set, falling back to default profiles: default
+2018-06-28 20:11:02.509 INFO  ConfigServerApplication Line:659 - No active profile set, falling back to default profiles: default
 2018-06-28 20:11:07.422 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Initializing ProtocolHandler ["http-nio-1101"]
 2018-06-28 20:11:07.445 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
 2018-06-28 20:11:07.447 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
@@ -29,7 +29,7 @@
 2018-06-28 20:11:33.313 INFO  com.netflix.discovery.DiscoveryClient Line:835 - DiscoveryClient_CONFIG-SERVER/localhost:config-server:1101 - registration status: 204
 2018-06-28 20:11:33.497 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Starting ProtocolHandler ["http-nio-1101"]
 2018-06-28 20:11:33.535 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 - Using a shared selector for servlet write/read
-2018-06-28 20:11:33.594 INFO  com.iscas.cloud.quickframe.config.server.ConfigServerApplication Line:59  - Started ConfigServerApplication in 34.536 seconds (JVM running for 35.575)
+2018-06-28 20:11:33.594 INFO  ConfigServerApplication Line:59  - Started ConfigServerApplication in 34.536 seconds (JVM running for 35.575)
 2018-06-28 20:12:02.478 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
 2018-06-28 20:12:02.479 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
 2018-06-28 20:12:02.479 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false

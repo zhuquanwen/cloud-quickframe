@@ -1,2 +1,4 @@
 1. spring cloud版本升级到Finchley，
 2. spring boot 版本升级到2.0
+3. spring data redis 升级到2.x,需要做改动
+4. spring security4.x 升级到spring security 5.x 需要做改动

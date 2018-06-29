@@ -11,17 +11,14 @@ spring:
       server:
         git:
           uri: https://gitee.com/quanwen1989/cloud-quickframe-config.git
-          default-label: ${spring.profiles.active} #解决监控down
+          default-label: ${spring.profiles.active}
           username: quanwenz@sina.cn
           password: 12345678a
-          searchPaths: '{application}'
+#          searchPaths: '{application}'
           lone-on-start: true
-  autoconfigure:
-    #management.security.enabled = false 不能用了，用下面这个替换
-    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
-#spring.security.basic.enabled: true
-#spring.security.user.name: iscas
-#spring.security.user.password: iscas
+management.endpoints.web.exposure.include: *
+management.endpoint.shutdown.enabled: true
+management.endpoint.health.show-details: always
 
 
 
@@ -40,11 +37,10 @@ eureka:
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 20
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://iscas:iscas@localhost:1001/eureka
     registry-fetch-interval-seconds: 10
-    healthcheck:
-      enabled: true
+
 ---
 spring:
   profiles: prd
@@ -64,7 +60,5 @@ eureka:
   instance:
     prefer-ip-address: true
   client:
-    healthcheck:
-      enabled: true
     service-url:
       defaultZone: http://localhost:1001/eureka/
