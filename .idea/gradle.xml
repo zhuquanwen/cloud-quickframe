@@ -12,8 +12,10 @@
             <option value="$PROJECT_DIR$/auth" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/config-server" />
+            <option value="$PROJECT_DIR$/deamon-service" />
             <option value="$PROJECT_DIR$/discovery-eureka" />
             <option value="$PROJECT_DIR$/gate-zuul" />
+            <option value="$PROJECT_DIR$/mc-service" />
           </set>
         </option>
       </GradleProjectSettings>

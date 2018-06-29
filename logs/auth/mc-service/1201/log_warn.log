@@ -1,0 +1,16 @@
+2018-06-29 18:14:09.286 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-29 18:14:09.287 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-29 18:14:09.474 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:14:10.754 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:18:29.132 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-29 18:18:29.132 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-29 18:18:29.321 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:18:30.629 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:20:38.207 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-29 18:20:38.207 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-29 18:20:38.391 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:20:39.706 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:21:02.177 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-29 18:21:02.177 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-29 18:21:02.361 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:21:03.649 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.

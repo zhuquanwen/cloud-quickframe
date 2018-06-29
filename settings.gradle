@@ -4,4 +4,6 @@ include 'config-server'
 include 'gate-zuul'
 include 'common'
 include 'auth'
+include 'deamon-service'
+include 'mc-service'
 

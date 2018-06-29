@@ -516,3 +516,120 @@
 2018-06-29 14:28:22.647 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
 2018-06-29 14:33:22.656 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
 2018-06-29 14:38:22.666 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 14:43:22.675 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 14:48:22.685 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 14:53:22.695 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 14:58:22.704 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:03:22.713 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:08:22.722 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:13:22.731 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:18:22.740 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:21:31.471 INFO  com.iscas.cloud.quickframe.auth.config.server.ConfigServerApplication Line:663 - The following profiles are active: dev
+2018-06-29 15:21:32.484 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 15:21:32.493 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 15:21:32.526 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 15:21:32.666 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 15:21:32.674 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@17389a
+2018-06-29 15:21:34.075 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 15:21:35.554 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 15:21:35.601 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 15:21:35.601 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 15:21:35.678 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 15:21:35.679 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 15:21:35.788 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:21:35.835 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 15:21:35.836 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 15:21:35.836 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 15:21:35.836 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 15:21:35.836 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 15:21:35.836 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 15:21:35.836 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 15:21:35.974 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 15:21:35.975 INFO  com.netflix.discovery.DiscoveryClient Line:1264 - Starting heartbeat executor: renew interval is: 30
+2018-06-29 15:21:35.976 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-29 15:21:35.978 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530256895978 with initial instances count: 0
+2018-06-29 15:21:35.983 INFO  com.netflix.discovery.DiscoveryClient Line:1299 - Saw local status change event StatusChangeEvent [timestamp=1530256895983, current=UP, previous=STARTING]
+2018-06-29 15:21:35.985 INFO  com.netflix.discovery.DiscoveryClient Line:826 - DiscoveryClient_CONFIG-SERVER/config-server:1101: registering service...
+2018-06-29 15:21:36.043 INFO  com.netflix.discovery.DiscoveryClient Line:835 - DiscoveryClient_CONFIG-SERVER/config-server:1101 - registration status: 204
+2018-06-29 15:21:36.071 INFO  com.iscas.cloud.quickframe.auth.config.server.ConfigServerApplication Line:59  - Started ConfigServerApplication in 5.461 seconds (JVM running for 5.914)
+2018-06-29 15:21:36.474 INFO  io.undertow.servlet Line:360 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 15:22:05.976 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 15:22:05.976 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 15:22:05.976 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 15:22:05.976 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 15:22:05.976 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 15:22:05.976 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: false
+2018-06-29 15:22:05.977 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 15:22:06.003 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 15:26:35.847 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:31:35.856 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:36:35.865 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:41:35.875 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:46:35.884 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:51:35.893 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:56:35.902 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:01:35.911 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:06:35.921 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:11:35.930 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:16:35.938 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:21:35.947 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:26:35.956 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:31:35.965 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:36:35.974 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:41:35.984 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:46:35.994 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:51:36.003 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:56:36.012 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:01:36.021 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:06:36.030 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:11:36.039 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:16:36.049 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:21:36.058 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:26:36.067 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:31:36.076 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:36:36.085 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:41:36.095 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:46:36.104 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:51:36.113 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:56:36.122 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:01:36.152 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:06:36.162 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:11:36.170 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:13:05.993 INFO  com.iscas.cloud.quickframe.auth.config.server.ConfigServerApplication Line:663 - The following profiles are active: dev
+2018-06-29 18:13:06.954 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 18:13:06.962 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 18:13:06.993 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 18:13:07.130 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 18:13:07.135 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7106d9
+2018-06-29 18:13:08.477 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 18:13:09.854 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 18:13:09.899 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 18:13:09.899 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 18:13:09.962 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 18:13:09.962 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 18:13:10.062 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:13:10.123 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 18:13:10.123 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 18:13:10.123 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 18:13:10.123 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 18:13:10.123 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 18:13:10.123 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 18:13:10.124 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 18:13:10.264 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 18:13:10.265 INFO  com.netflix.discovery.DiscoveryClient Line:1264 - Starting heartbeat executor: renew interval is: 30
+2018-06-29 18:13:10.266 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-29 18:13:10.270 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530267190269 with initial instances count: 0
+2018-06-29 18:13:10.276 INFO  com.netflix.discovery.DiscoveryClient Line:1299 - Saw local status change event StatusChangeEvent [timestamp=1530267190276, current=UP, previous=STARTING]
+2018-06-29 18:13:10.277 INFO  com.netflix.discovery.DiscoveryClient Line:826 - DiscoveryClient_CONFIG-SERVER/config-server:1101: registering service...
+2018-06-29 18:13:10.333 INFO  com.netflix.discovery.DiscoveryClient Line:835 - DiscoveryClient_CONFIG-SERVER/config-server:1101 - registration status: 204
+2018-06-29 18:13:10.361 INFO  com.iscas.cloud.quickframe.auth.config.server.ConfigServerApplication Line:59  - Started ConfigServerApplication in 5.186 seconds (JVM running for 5.642)
+2018-06-29 18:13:11.057 INFO  io.undertow.servlet Line:360 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 18:13:40.266 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 18:13:40.266 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 18:13:40.266 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 18:13:40.266 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 18:13:40.266 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 18:13:40.266 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: false
+2018-06-29 18:13:40.266 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 18:13:40.292 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 18:18:10.134 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration

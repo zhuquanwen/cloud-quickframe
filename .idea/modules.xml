@@ -14,12 +14,18 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/deamon-service.iml" filepath="$PROJECT_DIR$/.idea/modules/deamon-service.iml" group="deamon-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/deamon-service/deamon-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/deamon-service/deamon-service_main.iml" group="deamon-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/deamon-service/deamon-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/deamon-service/deamon-service_test.iml" group="deamon-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-eureka.iml" group="discovery-eureka" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-eureka/discovery-eureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-eureka/discovery-eureka_main.iml" group="discovery-eureka" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-eureka/discovery-eureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-eureka/discovery-eureka_test.iml" group="discovery-eureka" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul.iml" filepath="$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul.iml" group="gate-zuul" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul_main.iml" group="gate-zuul" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gate-zuul/gate-zuul_test.iml" group="gate-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mc-service.iml" filepath="$PROJECT_DIR$/.idea/modules/mc-service.iml" group="mc-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mc-service/mc-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mc-service/mc-service_main.iml" group="mc-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mc-service/mc-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mc-service/mc-service_test.iml" group="mc-service" />
     </modules>
   </component>
 </project>

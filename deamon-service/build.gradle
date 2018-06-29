@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'com.iscas.cloud.quickframe'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+//    compile.exclude group: 'com.zaxxer'
+}
+dependencies {
+    compile group: 'com.github.xjzrc.spring.boot', name: 'elastic-job-lite-spring-boot-starter', version: "${esjobVersion}",{
+        exclude group: 'org.apache.curator',module:"curator-framework"
+        exclude group: 'org.apache.curator',module:"curator-recipes"
+
+    }
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
+    compile("org.apache.curator:curator-framework:${curatorframeworkVersion}")
+    compile group:"org.apache.curator",name:"curator-recipes",version:"${curatorframeworkVersion}",{
+        exclude group: 'org.apache.curator',module:"curator-framework"
+    }
+    compile('mysql:mysql-connector-java')
+}

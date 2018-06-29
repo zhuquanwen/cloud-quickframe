@@ -13,12 +13,16 @@
       <module name="common_test" target="1.8" />
       <module name="config-server_main" target="1.8" />
       <module name="config-server_test" target="1.8" />
+      <module name="deamon-service_main" target="1.8" />
+      <module name="deamon-service_test" target="1.8" />
       <module name="discovery-eureka_main" target="1.8" />
       <module name="discovery-eureka_test" target="1.8" />
       <module name="gat-zuul_main" target="1.8" />
       <module name="gat-zuul_test" target="1.8" />
       <module name="gate-zuul_main" target="1.8" />
       <module name="gate-zuul_test" target="1.8" />
+      <module name="mc-service_main" target="1.8" />
+      <module name="mc-service_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
