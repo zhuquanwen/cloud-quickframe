@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.dangdang:elastic-job-lite-spring:2.1.5">
     <CLASSES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.dangdang/elastic-job-lite-spring/2.1.5/f431b9890c3ce6d25e4c5a22460c09967cbd289a/elastic-job-lite-spring-2.1.5.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dangdang/elastic-job-lite-spring/2.1.5/f431b9890c3ce6d25e4c5a22460c09967cbd289a/elastic-job-lite-spring-2.1.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.dangdang/elastic-job-lite-spring/2.1.5/a15d770287e69823d3fd9dcef98ed2632acfbdf1/elastic-job-lite-spring-2.1.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dangdang/elastic-job-lite-spring/2.1.5/a15d770287e69823d3fd9dcef98ed2632acfbdf1/elastic-job-lite-spring-2.1.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

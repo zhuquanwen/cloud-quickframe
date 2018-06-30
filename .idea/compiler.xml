@@ -23,6 +23,10 @@
       <module name="gate-zuul_test" target="1.8" />
       <module name="mc-service_main" target="1.8" />
       <module name="mc-service_test" target="1.8" />
+      <module name="sso-client-demo_main" target="1.8" />
+      <module name="sso-client-demo_test" target="1.8" />
+      <module name="upms-service_main" target="1.8" />
+      <module name="upms-service_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

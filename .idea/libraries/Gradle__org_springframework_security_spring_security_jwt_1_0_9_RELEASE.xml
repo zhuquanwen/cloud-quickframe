@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework.security:spring-security-jwt:1.0.9.RELEASE">
     <CLASSES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/org.springframework.security/spring-security-jwt/1.0.9.RELEASE/d22cf8a0f0921ed9c6440e8dba7b43aaa0349082/spring-security-jwt-1.0.9.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-jwt/1.0.9.RELEASE/d22cf8a0f0921ed9c6440e8dba7b43aaa0349082/spring-security-jwt-1.0.9.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/org.springframework.security/spring-security-jwt/1.0.9.RELEASE/6e1442f7a826e6e59581ef45f7408cfe42cb2b32/spring-security-jwt-1.0.9.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-jwt/1.0.9.RELEASE/6e1442f7a826e6e59581ef45f7408cfe42cb2b32/spring-security-jwt-1.0.9.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

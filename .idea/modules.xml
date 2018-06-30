@@ -26,6 +26,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mc-service.iml" filepath="$PROJECT_DIR$/.idea/modules/mc-service.iml" group="mc-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mc-service/mc-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mc-service/mc-service_main.iml" group="mc-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mc-service/mc-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mc-service/mc-service_test.iml" group="mc-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client-demo.iml" group="sso-client-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client-demo/sso-client-demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client-demo/sso-client-demo_main.iml" group="sso-client-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sso-client-demo/sso-client-demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sso-client-demo/sso-client-demo_test.iml" group="sso-client-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upms-service.iml" filepath="$PROJECT_DIR$/.idea/modules/upms-service.iml" group="upms-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upms-service/upms-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/upms-service/upms-service_main.iml" group="upms-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upms-service/upms-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/upms-service/upms-service_test.iml" group="upms-service" />
     </modules>
   </component>
 </project>

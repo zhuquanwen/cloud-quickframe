@@ -16,6 +16,8 @@
             <option value="$PROJECT_DIR$/discovery-eureka" />
             <option value="$PROJECT_DIR$/gate-zuul" />
             <option value="$PROJECT_DIR$/mc-service" />
+            <option value="$PROJECT_DIR$/sso-client-demo" />
+            <option value="$PROJECT_DIR$/upms-service" />
           </set>
         </option>
       </GradleProjectSettings>

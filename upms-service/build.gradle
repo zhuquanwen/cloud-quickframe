@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'com.iscas.cloud.quickframe'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':common')
+    compile('mysql:mysql-connector-java')
+    compile group: 'com.baomidou', name: 'mybatisplus-spring-boot-starter', version: "${mybatisplusStarterVersion}"
+    compile group: 'com.zaxxer', name: 'HikariCP',version: '3.2.0'
+    compile group: 'io.shardingjdbc', name: 'sharding-jdbc-core-spring-boot-starter',version:"${shardingJdbcStarterVersion}"
+    compile group: 'org.apache.velocity', name: 'velocity-engine-core',version:"${velocityECVersion}"
+    compile group: 'com.qiniu', name: 'qiniu-java-sdk',version:"${qiniuVersion}"
+    compile group: 'com.github.axet', name: 'kaptcha',version:"${kaptchaVersion}"
+    compile group: 'com.github.pagehelper', name: 'pagehelper-spring-boot-starter', version: "${pagehelperStarterVersion}"
+
+
+//    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zipkin'
+
+}

@@ -198,3 +198,203 @@
 2018-06-29 18:21:03.650 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
 2018-06-29 18:21:04.845 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
 2018-06-29 18:21:04.850 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 21:39:12.549 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:39:12.795 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:39:12.801 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:12.802 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:12.803 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:12.805 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:39:12.806 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:12.807 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:12.808 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:12.809 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:13.123 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:39:13.125 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:39:14.541 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 21:39:14.950 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 21:39:14.951 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 21:39:15.056 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 21:39:15.056 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 21:39:15.334 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:39:15.637 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 21:39:15.639 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 21:39:15.641 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 21:39:15.642 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 21:39:15.644 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 21:39:15.645 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 21:39:15.646 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 21:39:16.041 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 21:39:16.047 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 21:39:16.057 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530279556055 with initial instances count: 2
+2018-06-29 21:39:20.726 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: mc-service-1
+2018-06-29 21:39:20.727 INFO  com.iscas.cloud.quickframe.mc.service.MessageCenterApplication Line:663 - The following profiles are active: dev
+2018-06-29 21:39:23.346 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:39:23.368 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-06-29 21:39:23.369 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:39:23.369 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:39:23.370 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:39:23.370 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:23.370 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:23.370 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:39:23.370 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:23.370 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:39:24.456 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 21:39:24.497 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 21:39:24.765 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 21:39:25.489 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:39:25.507 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4d81e83a
+2018-06-29 21:39:26.005 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:39:26.007 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:39:33.116 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:39:35.530 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 21:39:35.539 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 21:40:23.077 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:40:23.185 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:40:23.190 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:23.191 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:23.192 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:23.194 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:40:23.196 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:23.197 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:23.198 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:23.198 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:23.399 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:40:23.401 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:40:24.956 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 21:40:25.287 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 21:40:25.287 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 21:40:25.555 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 21:40:25.557 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 21:40:26.331 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:40:26.444 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 21:40:26.445 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 21:40:26.445 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 21:40:26.445 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 21:40:26.445 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 21:40:26.446 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 21:40:26.446 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 21:40:26.995 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 21:40:27.004 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 21:40:27.017 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530279627014 with initial instances count: 2
+2018-06-29 21:40:30.927 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: mc-service-1
+2018-06-29 21:40:30.927 INFO  com.iscas.cloud.quickframe.mc.service.MessageCenterApplication Line:663 - The following profiles are active: dev
+2018-06-29 21:40:32.709 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:40:32.744 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-06-29 21:40:32.745 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:40:32.745 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:40:32.746 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:40:32.746 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:32.746 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:32.746 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:40:32.747 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:32.747 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:40:33.362 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 21:40:33.395 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 21:40:33.512 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 21:40:34.031 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:40:34.042 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1c1fa494
+2018-06-29 21:40:34.412 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:40:34.413 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:40:39.444 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:40:42.535 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 21:40:42.557 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 21:41:28.074 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:41:28.287 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:41:28.295 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:28.297 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:28.298 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:28.301 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:41:28.303 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:28.304 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:28.305 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:28.307 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:28.727 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:41:28.729 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:41:30.374 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 21:41:31.438 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 21:41:31.439 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 21:41:31.734 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 21:41:31.735 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 21:41:32.439 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:41:32.856 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 21:41:32.858 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 21:41:32.859 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 21:41:32.860 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 21:41:32.861 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 21:41:32.862 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 21:41:32.862 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 21:41:33.382 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 21:41:33.392 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 21:41:33.407 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530279693404 with initial instances count: 2
+2018-06-29 21:41:38.160 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: mc-service-1
+2018-06-29 21:41:38.161 INFO  com.iscas.cloud.quickframe.mc.service.MessageCenterApplication Line:663 - The following profiles are active: dev
+2018-06-29 21:41:41.938 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:41:41.990 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-06-29 21:41:41.991 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:41:41.991 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:41:41.992 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:41:41.993 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:41.994 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:41.994 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:41:41.995 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:41.995 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:41:43.263 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 21:41:43.317 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 21:41:43.565 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 21:41:44.335 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:41:44.360 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@150fc7a7
+2018-06-29 21:41:44.639 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:41:44.640 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:41:51.121 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:41:54.821 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 21:41:54.828 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 21:44:51.726 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:44:51.893 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:44:51.900 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:44:51.901 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:44:51.902 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:44:51.905 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:44:51.906 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:44:51.907 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:44:51.908 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:44:51.909 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:44:52.354 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:44:52.360 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:44:54.143 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 21:44:55.122 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 21:44:55.124 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 21:44:55.450 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 21:44:55.451 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 21:44:55.856 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:44:56.252 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 21:44:56.253 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 21:44:56.255 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 21:44:56.256 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 21:44:56.257 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 21:44:56.258 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 21:44:56.259 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 21:44:57.051 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 21:44:57.058 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 21:44:57.069 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530279897067 with initial instances count: 2
+2018-06-29 21:45:01.663 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: mc-service-1
+2018-06-29 21:45:01.664 INFO  com.iscas.cloud.quickframe.mc.service.MessageCenterApplication Line:663 - The following profiles are active: dev
+2018-06-29 21:45:03.484 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:45:03.505 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-06-29 21:45:03.506 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:45:03.506 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:45:03.506 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:45:03.506 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:45:03.507 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:45:03.507 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:45:03.507 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:45:03.507 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:45:04.176 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 21:45:04.195 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 21:45:04.335 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 21:45:04.883 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:45:04.896 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@341c6ac2
+2018-06-29 21:45:05.145 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:45:05.146 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:45:10.857 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:45:13.848 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 21:45:13.872 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient

@@ -45,3 +45,5 @@ configurations {
     public AuthenticationManager authenticationManagerBean() throws Exception {
         return super.authenticationManagerBean();
     }
+
+7.springboot 2.0 ,EmbeddedServletContainer已经被重命名为WebServer,

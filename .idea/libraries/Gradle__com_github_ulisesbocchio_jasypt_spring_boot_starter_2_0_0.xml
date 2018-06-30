@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ulisesbocchio:jasypt-spring-boot-starter:2.0.0">
     <CLASSES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot-starter/2.0.0/5efb560c6906e4e03bc2e21b8cdfd547bdc28608/jasypt-spring-boot-starter-2.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot-starter/2.0.0/5efb560c6906e4e03bc2e21b8cdfd547bdc28608/jasypt-spring-boot-starter-2.0.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot-starter/2.0.0/da21e94a5fa33476f2c03de254633b46fd017137/jasypt-spring-boot-starter-2.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot-starter/2.0.0/da21e94a5fa33476f2c03de254633b46fd017137/jasypt-spring-boot-starter-2.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

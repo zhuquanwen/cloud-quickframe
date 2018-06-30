@@ -6,4 +6,6 @@ include 'common'
 include 'auth'
 include 'deamon-service'
 include 'mc-service'
+include 'sso-client-demo'
+include 'upms-service'
 

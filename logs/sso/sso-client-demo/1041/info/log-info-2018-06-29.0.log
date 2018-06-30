@@ -1,0 +1,22 @@
+2018-06-29 21:40:40.318 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 21:40:40.800 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 21:40:40.801 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 21:40:40.922 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 21:40:40.922 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 21:40:41.130 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:40:41.254 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 21:40:41.255 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 21:40:41.255 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 21:40:41.255 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 21:40:41.256 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 21:40:41.256 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 21:40:41.256 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 21:40:41.452 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 21:40:41.456 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 21:40:41.460 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530279641459 with initial instances count: 2
+2018-06-29 21:40:45.179 INFO  com.iscas.cloud.quickframe.sso.client.demo.SsoClientDemoApplication Line:663 - The following profiles are active: dev
+2018-06-29 21:40:47.659 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 21:40:47.712 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 21:40:47.798 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 21:40:48.090 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:40:48.102 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@44286963

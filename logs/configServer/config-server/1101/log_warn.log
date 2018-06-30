@@ -1,32 +1,8 @@
-2018-06-29 09:01:46.352 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 09:01:47.846 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 09:43:59.955 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 09:44:01.416 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:29:50.058 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:29:51.496 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:43:01.686 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:43:03.189 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:50:56.464 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:50:57.947 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:03:54.263 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:03:55.747 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:10:03.842 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 11:10:03.842 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 11:10:03.999 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:10:05.351 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:16:16.082 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 11:16:16.082 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 11:16:16.235 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:16:17.608 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:18:19.137 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 11:18:19.137 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 11:18:19.288 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:18:20.633 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 15:21:32.509 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 15:21:32.509 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 15:21:32.665 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 15:21:34.075 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 18:13:06.980 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 18:13:06.980 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 18:13:07.130 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 18:13:08.476 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-30 11:45:27.448 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-30 11:45:27.462 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-30 11:45:28.102 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-30 11:45:32.368 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-30 13:30:16.975 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-30 13:30:16.976 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-30 13:30:17.251 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-30 13:30:21.394 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.

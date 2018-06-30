@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.shardingjdbc:sharding-jdbc-core-spring-boot-starter:2.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.shardingjdbc/sharding-jdbc-core-spring-boot-starter/2.0.3/ee8cdf5c7204e539d3f6fe2c29846ffacb9b0238/sharding-jdbc-core-spring-boot-starter-2.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.shardingjdbc/sharding-jdbc-core-spring-boot-starter/2.0.3/464d6d5e6c4a5ac91af1b0a9346c43d4f31cbb9e/sharding-jdbc-core-spring-boot-starter-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

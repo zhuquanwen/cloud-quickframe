@@ -1,0 +1,472 @@
+2018-06-29 14:44:17.299 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 14:44:17.342 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 14:44:17.343 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:17.343 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:17.343 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:17.343 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 14:44:17.344 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:17.344 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:17.344 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:17.344 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:17.455 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 14:44:17.456 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 14:44:17.636 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 14:44:17.816 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 14:44:17.816 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 14:44:17.883 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 14:44:17.884 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 14:44:18.032 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 14:44:18.084 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 14:44:18.084 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 14:44:18.084 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 14:44:18.085 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 14:44:18.085 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 14:44:18.085 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 14:44:18.085 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 14:44:18.219 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 14:44:18.221 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 14:44:18.224 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530254658223 with initial instances count: 2
+2018-06-29 14:44:19.027 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: auth-1
+2018-06-29 14:44:19.027 INFO  com.iscas.cloud.quickframe.auth.AuthServerApplication Line:663 - The following profiles are active: dev
+2018-06-29 14:44:20.116 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 14:44:20.130 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-06-29 14:44:20.131 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 14:44:20.131 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 14:44:20.131 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 14:44:20.131 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:20.131 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:20.131 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 14:44:20.131 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:20.131 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 14:44:20.713 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 14:44:20.724 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 14:44:20.767 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 14:44:20.979 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 14:44:20.984 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1b363c3
+2018-06-29 14:44:21.155 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 14:44:21.155 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 14:44:24.131 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-06-29 14:44:24.175 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 14:44:25.654 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 14:44:25.659 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 14:44:26.551 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: auth-1-1
+2018-06-29 14:44:26.795 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 14:44:26.805 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer Line:58  - Shutdown hook installed for: NFLoadBalancer-PingTimer-auth
+2018-06-29 14:44:26.809 INFO  com.netflix.loadbalancer.BaseLoadBalancer Line:192 - Client: auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-06-29 14:44:26.813 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:222 - Using serverListUpdater PollingServerListUpdater
+2018-06-29 14:44:26.828 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 14:44:26.830 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 14:44:26.830 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 14:44:26.830 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 14:44:26.830 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 14:44:26.875 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 14:44:26.876 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 14:44:26.876 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 14:44:26.876 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 14:44:26.876 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 14:44:26.877 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 14:44:26.877 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 14:44:26.877 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 14:44:26.880 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 14:44:26.881 INFO  com.netflix.discovery.DiscoveryClient Line:1264 - Starting heartbeat executor: renew interval is: 20
+2018-06-29 14:44:26.883 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-29 14:44:26.884 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530254666884 with initial instances count: 2
+2018-06-29 14:44:26.912 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 14:44:26.913 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:150 - DynamicServerListLoadBalancer for client auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth,current list of Servers=[192.168.100.88:1201],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.100.88:1201;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@ff38ff
+2018-06-29 14:44:27.015 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: pig-upms-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 14:44:27.021 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer Line:58  - Shutdown hook installed for: NFLoadBalancer-PingTimer-pig-upms-service
+2018-06-29 14:44:27.022 INFO  com.netflix.loadbalancer.BaseLoadBalancer Line:192 - Client: pig-upms-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-06-29 14:44:27.022 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:222 - Using serverListUpdater PollingServerListUpdater
+2018-06-29 14:44:27.023 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:150 - DynamicServerListLoadBalancer for client pig-upms-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@13dc752
+2018-06-29 14:44:27.171 INFO  com.netflix.discovery.DiscoveryClient Line:1299 - Saw local status change event StatusChangeEvent [timestamp=1530254667171, current=UP, previous=STARTING]
+2018-06-29 14:44:27.172 INFO  com.netflix.discovery.DiscoveryClient Line:826 - DiscoveryClient_AUTH/3C3KFGGUEXOVEHG:auth:1201: registering service...
+2018-06-29 14:44:27.193 INFO  com.netflix.discovery.DiscoveryClient Line:835 - DiscoveryClient_AUTH/3C3KFGGUEXOVEHG:auth:1201 - registration status: 204
+2018-06-29 14:44:27.217 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:151 - Context refreshed
+2018-06-29 14:44:27.229 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:154 - Found 1 custom documentation plugin(s)
+2018-06-29 14:44:27.265 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-06-29 14:44:27.315 INFO  com.iscas.cloud.quickframe.auth.AuthServerApplication Line:59  - Started AuthServerApplication in 10.782 seconds (JVM running for 11.215)
+2018-06-29 14:44:27.815 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 14:44:28.042 INFO  io.undertow.servlet Line:360 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 14:44:28.913 INFO  io.lettuce.core.EpollProvider Line:101 - Starting without optional epoll library
+2018-06-29 14:44:28.915 INFO  io.lettuce.core.KqueueProvider Line:101 - Starting without optional kqueue library
+2018-06-29 14:49:26.905 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 14:54:26.915 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 14:59:26.923 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:04:26.933 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:09:26.942 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:14:26.951 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:19:26.961 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:21:41.452 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 15:21:41.494 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 15:21:41.495 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:21:41.496 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:21:41.496 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:21:41.496 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 15:21:41.496 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:21:41.496 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:21:41.496 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:21:41.497 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:21:41.620 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 15:21:41.621 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 15:21:41.799 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 15:21:41.974 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 15:21:41.977 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 15:21:42.040 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 15:21:42.040 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 15:21:42.202 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:21:42.264 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 15:21:42.265 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 15:21:42.265 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 15:21:42.265 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 15:21:42.265 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 15:21:42.265 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 15:21:42.265 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 15:21:42.348 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 15:21:42.349 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 15:21:42.352 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530256902351 with initial instances count: 0
+2018-06-29 15:21:48.587 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 15:21:48.605 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 15:22:00.057 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 15:22:00.100 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 15:22:00.101 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:00.101 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:00.101 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:00.101 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 15:22:00.101 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:00.101 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:00.101 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:00.102 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:00.197 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 15:22:00.199 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 15:22:00.396 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 15:22:00.576 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 15:22:00.576 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 15:22:00.641 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 15:22:00.641 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 15:22:00.793 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:22:00.843 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 15:22:00.843 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 15:22:00.843 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 15:22:00.843 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 15:22:00.844 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 15:22:00.844 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 15:22:00.844 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 15:22:00.965 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 15:22:00.967 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 15:22:00.970 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530256920969 with initial instances count: 1
+2018-06-29 15:22:01.797 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: auth-1
+2018-06-29 15:22:01.797 INFO  com.iscas.cloud.quickframe.auth.AuthServerApplication Line:663 - The following profiles are active: dev
+2018-06-29 15:22:02.897 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 15:22:02.910 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-06-29 15:22:02.910 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 15:22:02.910 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 15:22:02.911 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 15:22:02.911 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:02.911 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:02.911 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 15:22:02.911 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:02.911 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 15:22:03.403 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 15:22:03.416 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 15:22:03.514 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 15:22:03.724 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 15:22:03.730 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@19aa9ee
+2018-06-29 15:22:03.899 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 15:22:03.899 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 15:22:06.804 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-06-29 15:22:06.848 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 15:22:08.344 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 15:22:08.350 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 15:22:09.357 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: auth-1-1
+2018-06-29 15:22:09.602 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 15:22:09.612 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer Line:58  - Shutdown hook installed for: NFLoadBalancer-PingTimer-auth
+2018-06-29 15:22:09.615 INFO  com.netflix.loadbalancer.BaseLoadBalancer Line:192 - Client: auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-06-29 15:22:09.619 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:222 - Using serverListUpdater PollingServerListUpdater
+2018-06-29 15:22:09.627 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 15:22:09.629 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 15:22:09.629 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 15:22:09.630 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 15:22:09.630 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 15:22:09.680 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:22:09.681 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 15:22:09.681 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 15:22:09.681 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 15:22:09.682 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 15:22:09.682 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 15:22:09.682 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 15:22:09.682 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 15:22:09.687 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 15:22:09.688 INFO  com.netflix.discovery.DiscoveryClient Line:1264 - Starting heartbeat executor: renew interval is: 20
+2018-06-29 15:22:09.689 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-29 15:22:09.690 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530256929690 with initial instances count: 1
+2018-06-29 15:22:09.701 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:150 - DynamicServerListLoadBalancer for client auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5cdc8
+2018-06-29 15:22:09.801 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: pig-upms-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 15:22:09.806 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer Line:58  - Shutdown hook installed for: NFLoadBalancer-PingTimer-pig-upms-service
+2018-06-29 15:22:09.806 INFO  com.netflix.loadbalancer.BaseLoadBalancer Line:192 - Client: pig-upms-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-06-29 15:22:09.807 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:222 - Using serverListUpdater PollingServerListUpdater
+2018-06-29 15:22:09.808 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:150 - DynamicServerListLoadBalancer for client pig-upms-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1f4c27c
+2018-06-29 15:22:09.939 INFO  com.netflix.discovery.DiscoveryClient Line:1299 - Saw local status change event StatusChangeEvent [timestamp=1530256929939, current=UP, previous=STARTING]
+2018-06-29 15:22:09.940 INFO  com.netflix.discovery.DiscoveryClient Line:826 - DiscoveryClient_AUTH/3C3KFGGUEXOVEHG:auth:1201: registering service...
+2018-06-29 15:22:09.969 INFO  com.netflix.discovery.DiscoveryClient Line:835 - DiscoveryClient_AUTH/3C3KFGGUEXOVEHG:auth:1201 - registration status: 204
+2018-06-29 15:22:09.985 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:151 - Context refreshed
+2018-06-29 15:22:09.996 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:154 - Found 1 custom documentation plugin(s)
+2018-06-29 15:22:10.025 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-06-29 15:22:10.083 INFO  com.iscas.cloud.quickframe.auth.AuthServerApplication Line:59  - Started AuthServerApplication in 10.741 seconds (JVM running for 11.168)
+2018-06-29 15:22:10.838 INFO  io.undertow.servlet Line:360 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 15:22:11.342 INFO  io.lettuce.core.EpollProvider Line:101 - Starting without optional epoll library
+2018-06-29 15:22:11.343 INFO  io.lettuce.core.KqueueProvider Line:101 - Starting without optional kqueue library
+2018-06-29 15:22:40.670 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 15:27:09.692 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:32:09.701 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:37:09.710 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:42:09.720 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:47:09.729 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:52:09.739 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 15:57:09.748 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:02:09.758 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:07:09.768 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:12:09.777 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:17:09.786 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:22:09.796 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:27:09.806 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:32:09.815 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:37:09.827 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:42:09.836 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:47:09.845 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:52:09.854 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 16:57:09.864 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:02:09.874 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:07:09.883 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:12:09.893 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:17:09.903 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:22:09.913 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:27:09.923 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:32:09.932 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:37:09.942 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:42:09.952 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:47:09.962 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:52:09.972 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 17:57:09.981 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:02:09.991 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:07:10.001 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:12:10.011 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:13:20.091 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 18:13:20.133 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 18:13:20.134 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:20.135 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:20.135 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:20.135 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 18:13:20.135 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:20.135 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:20.135 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:20.135 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:20.245 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 18:13:20.247 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 18:13:20.435 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 18:13:20.623 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 18:13:20.623 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 18:13:20.686 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 18:13:20.686 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 18:13:20.835 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:13:20.884 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 18:13:20.884 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 18:13:20.885 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 18:13:20.885 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 18:13:20.885 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 18:13:20.885 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 18:13:20.885 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 18:13:20.968 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 18:13:20.970 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 18:13:20.973 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530267200972 with initial instances count: 0
+2018-06-29 18:13:27.228 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 18:13:27.250 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 18:13:32.482 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 18:13:32.524 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 18:13:32.525 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:32.526 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:32.526 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:32.526 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 18:13:32.526 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:32.526 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:32.526 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:32.526 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:32.641 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 18:13:32.642 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 18:13:32.821 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 18:13:32.997 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 18:13:32.997 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 18:13:33.062 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 18:13:33.063 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 18:13:33.210 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:13:33.260 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 18:13:33.260 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 18:13:33.260 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 18:13:33.260 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 18:13:33.260 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 18:13:33.260 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 18:13:33.260 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 18:13:33.385 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 18:13:33.387 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 18:13:33.389 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530267213389 with initial instances count: 1
+2018-06-29 18:13:34.177 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: auth-1
+2018-06-29 18:13:34.177 INFO  com.iscas.cloud.quickframe.auth.AuthServerApplication Line:663 - The following profiles are active: dev
+2018-06-29 18:13:35.295 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 18:13:35.310 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-06-29 18:13:35.310 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 18:13:35.310 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 18:13:35.310 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 18:13:35.310 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:35.310 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:35.311 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 18:13:35.311 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:35.311 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 18:13:35.898 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 18:13:35.911 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 18:13:35.956 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 18:13:36.179 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 18:13:36.185 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@16328b2
+2018-06-29 18:13:36.360 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 18:13:36.360 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 18:13:39.321 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-06-29 18:13:39.367 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 18:13:40.877 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 18:13:40.883 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 18:13:41.795 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: auth-1-1
+2018-06-29 18:13:42.048 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 18:13:42.059 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer Line:58  - Shutdown hook installed for: NFLoadBalancer-PingTimer-auth
+2018-06-29 18:13:42.062 INFO  com.netflix.loadbalancer.BaseLoadBalancer Line:192 - Client: auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-06-29 18:13:42.065 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:222 - Using serverListUpdater PollingServerListUpdater
+2018-06-29 18:13:42.073 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 18:13:42.076 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 18:13:42.077 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 18:13:42.077 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 18:13:42.077 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 18:13:42.128 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 18:13:42.129 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 18:13:42.129 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 18:13:42.130 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 18:13:42.130 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 18:13:42.130 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 18:13:42.130 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 18:13:42.130 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 18:13:42.135 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 18:13:42.135 INFO  com.netflix.discovery.DiscoveryClient Line:1264 - Starting heartbeat executor: renew interval is: 20
+2018-06-29 18:13:42.137 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-29 18:13:42.138 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530267222138 with initial instances count: 1
+2018-06-29 18:13:42.148 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:150 - DynamicServerListLoadBalancer for client auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2ec518
+2018-06-29 18:13:42.256 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: pig-upms-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 18:13:42.262 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer Line:58  - Shutdown hook installed for: NFLoadBalancer-PingTimer-pig-upms-service
+2018-06-29 18:13:42.262 INFO  com.netflix.loadbalancer.BaseLoadBalancer Line:192 - Client: pig-upms-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-06-29 18:13:42.263 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:222 - Using serverListUpdater PollingServerListUpdater
+2018-06-29 18:13:42.264 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:150 - DynamicServerListLoadBalancer for client pig-upms-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1120cb5
+2018-06-29 18:13:42.412 INFO  com.netflix.discovery.DiscoveryClient Line:1299 - Saw local status change event StatusChangeEvent [timestamp=1530267222412, current=UP, previous=STARTING]
+2018-06-29 18:13:42.415 INFO  com.netflix.discovery.DiscoveryClient Line:826 - DiscoveryClient_AUTH/3C3KFGGUEXOVEHG:auth:1201: registering service...
+2018-06-29 18:13:42.451 INFO  com.netflix.discovery.DiscoveryClient Line:835 - DiscoveryClient_AUTH/3C3KFGGUEXOVEHG:auth:1201 - registration status: 204
+2018-06-29 18:13:42.464 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:151 - Context refreshed
+2018-06-29 18:13:42.476 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:154 - Found 1 custom documentation plugin(s)
+2018-06-29 18:13:42.507 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-06-29 18:13:42.563 INFO  com.iscas.cloud.quickframe.auth.AuthServerApplication Line:59  - Started AuthServerApplication in 10.788 seconds (JVM running for 11.177)
+2018-06-29 18:13:43.277 INFO  io.undertow.servlet Line:360 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 18:13:43.738 INFO  io.lettuce.core.EpollProvider Line:101 - Starting without optional epoll library
+2018-06-29 18:13:43.739 INFO  io.lettuce.core.KqueueProvider Line:101 - Starting without optional kqueue library
+2018-06-29 18:14:13.086 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 18:18:42.140 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:37:28.871 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:37:28.994 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:37:28.997 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:28.998 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:28.998 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:28.999 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:37:29.000 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:29.000 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:29.000 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource applicationConfig: [classpath:/bootstrap.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:29.001 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:29.238 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:37:29.241 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:37:30.864 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 21:37:31.414 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 21:37:31.415 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 21:37:31.693 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 21:37:31.694 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 21:37:32.105 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:37:32.348 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 21:37:32.349 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 21:37:32.350 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 21:37:32.350 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 21:37:32.351 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 21:37:32.351 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 21:37:32.352 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 21:37:32.730 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 21:37:32.736 INFO  com.netflix.discovery.DiscoveryClient Line:1311 - Not registering with Eureka server per configuration
+2018-06-29 21:37:32.742 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530279452740 with initial instances count: 1
+2018-06-29 21:37:40.582 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: auth-1
+2018-06-29 21:37:40.583 INFO  com.iscas.cloud.quickframe.auth.AuthServerApplication Line:663 - The following profiles are active: dev
+2018-06-29 21:37:44.194 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:48  - Post-processing PropertySource instances
+2018-06-29 21:37:44.240 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-06-29 21:37:44.241 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-06-29 21:37:44.242 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:37:44.242 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:37:44.243 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:44.243 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:44.244 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-06-29 21:37:44.244 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:44.244 INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter Line:38  - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-06-29 21:37:45.475 INFO  org.xnio Line:104 - XNIO version 3.3.8.Final
+2018-06-29 21:37:45.505 INFO  org.xnio.nio Line:55  - XNIO NIO Implementation Version 3.3.8.Final
+2018-06-29 21:37:45.696 INFO  io.undertow.servlet Line:360 - Initializing Spring embedded WebApplicationContext
+2018-06-29 21:37:46.424 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:37:46.446 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1c58d7be
+2018-06-29 21:37:46.886 INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver Line:34  - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-06-29 21:37:46.888 INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector Line:31  - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-06-29 21:37:56.968 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-06-29 21:37:57.030 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-29 21:38:00.609 INFO  com.netflix.discovery.DiscoveryClient Line:888 - Shutting down DiscoveryClient ...
+2018-06-29 21:38:00.634 INFO  com.netflix.discovery.DiscoveryClient Line:911 - Completed shut down of DiscoveryClient
+2018-06-29 21:38:05.786 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesConfiguration Line:70  - Bootstraping jasypt-string-boot auto configuration in context: auth-1-1
+2018-06-29 21:38:06.844 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 21:38:06.914 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer Line:58  - Shutdown hook installed for: NFLoadBalancer-PingTimer-auth
+2018-06-29 21:38:06.930 INFO  com.netflix.loadbalancer.BaseLoadBalancer Line:192 - Client: auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-06-29 21:38:06.949 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:222 - Using serverListUpdater PollingServerListUpdater
+2018-06-29 21:38:06.995 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+2018-06-29 21:38:07.001 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-29 21:38:07.001 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-29 21:38:07.002 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-29 21:38:07.003 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-29 21:38:07.095 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:38:07.097 INFO  com.netflix.discovery.DiscoveryClient Line:958 - Disable delta property : false
+2018-06-29 21:38:07.097 INFO  com.netflix.discovery.DiscoveryClient Line:959 - Single vip registry refresh property : null
+2018-06-29 21:38:07.098 INFO  com.netflix.discovery.DiscoveryClient Line:960 - Force full registry fetch : false
+2018-06-29 21:38:07.098 INFO  com.netflix.discovery.DiscoveryClient Line:961 - Application is null : false
+2018-06-29 21:38:07.098 INFO  com.netflix.discovery.DiscoveryClient Line:962 - Registered Applications size is zero : true
+2018-06-29 21:38:07.099 INFO  com.netflix.discovery.DiscoveryClient Line:964 - Application version is -1: true
+2018-06-29 21:38:07.099 INFO  com.netflix.discovery.DiscoveryClient Line:1047 - Getting all instance registry info from the eureka server
+2018-06-29 21:38:07.104 INFO  com.netflix.discovery.DiscoveryClient Line:1056 - The response status is 200
+2018-06-29 21:38:07.106 INFO  com.netflix.discovery.DiscoveryClient Line:1264 - Starting heartbeat executor: renew interval is: 20
+2018-06-29 21:38:07.109 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-29 21:38:07.113 INFO  com.netflix.discovery.DiscoveryClient Line:449 - Discovery Client initialized at timestamp 1530279487113 with initial instances count: 1
+2018-06-29 21:38:07.131 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:150 - DynamicServerListLoadBalancer for client auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2b8b5d9e
+2018-06-29 21:38:07.276 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: pig-upms-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 21:38:07.281 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer Line:58  - Shutdown hook installed for: NFLoadBalancer-PingTimer-pig-upms-service
+2018-06-29 21:38:07.282 INFO  com.netflix.loadbalancer.BaseLoadBalancer Line:192 - Client: pig-upms-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-06-29 21:38:07.283 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:222 - Using serverListUpdater PollingServerListUpdater
+2018-06-29 21:38:07.284 INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer Line:150 - DynamicServerListLoadBalancer for client pig-upms-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@76ccde41
+2018-06-29 21:38:08.065 INFO  com.netflix.discovery.DiscoveryClient Line:1299 - Saw local status change event StatusChangeEvent [timestamp=1530279488065, current=UP, previous=STARTING]
+2018-06-29 21:38:08.071 INFO  com.netflix.discovery.DiscoveryClient Line:826 - DiscoveryClient_AUTH/localhost:auth:1201: registering service...
+2018-06-29 21:38:08.162 INFO  com.netflix.discovery.DiscoveryClient Line:835 - DiscoveryClient_AUTH/localhost:auth:1201 - registration status: 204
+2018-06-29 21:38:08.243 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:151 - Context refreshed
+2018-06-29 21:38:08.287 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:154 - Found 1 custom documentation plugin(s)
+2018-06-29 21:38:08.410 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-06-29 21:38:08.652 INFO  com.iscas.cloud.quickframe.auth.AuthServerApplication Line:59  - Started AuthServerApplication in 42.717 seconds (JVM running for 45.214)
+2018-06-29 21:38:09.474 INFO  io.undertow.servlet Line:360 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 21:38:12.405 INFO  io.lettuce.core.EpollProvider Line:101 - Starting without optional epoll library
+2018-06-29 21:38:12.411 INFO  io.lettuce.core.KqueueProvider Line:101 - Starting without optional kqueue library
+2018-06-29 21:38:38.050 INFO  com.netflix.config.ChainedDynamicProperty Line:115 - Flipping property: auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-06-29 21:43:07.102 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:48:07.105 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:53:07.108 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 21:58:07.112 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 22:03:07.115 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 22:08:07.117 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-29 22:13:07.120 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration

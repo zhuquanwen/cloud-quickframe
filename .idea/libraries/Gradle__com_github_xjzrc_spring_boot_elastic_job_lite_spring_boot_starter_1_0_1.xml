@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.xjzrc.spring.boot:elastic-job-lite-spring-boot-starter:1.0.1">
     <CLASSES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.github.xjzrc.spring.boot/elastic-job-lite-spring-boot-starter/1.0.1/d9c538f354e547df607933c5b8ceb13a4153c792/elastic-job-lite-spring-boot-starter-1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xjzrc.spring.boot/elastic-job-lite-spring-boot-starter/1.0.1/d9c538f354e547df607933c5b8ceb13a4153c792/elastic-job-lite-spring-boot-starter-1.0.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.github.xjzrc.spring.boot/elastic-job-lite-spring-boot-starter/1.0.1/2b601109406cc923516a237e7e74340250083d32/elastic-job-lite-spring-boot-starter-1.0.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xjzrc.spring.boot/elastic-job-lite-spring-boot-starter/1.0.1/2b601109406cc923516a237e7e74340250083d32/elastic-job-lite-spring-boot-starter-1.0.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,0 +1,20 @@
+2018-06-29 14:44:20.745 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-29 14:44:20.745 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-29 14:44:20.978 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 14:44:23.018 WARN  org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter Line:302 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2018-06-29 14:44:24.175 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 15:22:03.436 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-29 15:22:03.436 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-29 15:22:03.724 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 15:22:05.696 WARN  org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter Line:302 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2018-06-29 15:22:06.847 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:13:35.934 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-29 18:13:35.935 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-29 18:13:36.179 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 18:13:38.169 WARN  org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter Line:302 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2018-06-29 18:13:39.367 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 21:37:45.578 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-29 21:37:45.585 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-29 21:37:46.424 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-29 21:37:54.511 WARN  org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter Line:302 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2018-06-29 21:37:57.030 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.

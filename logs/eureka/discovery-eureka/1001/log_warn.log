@@ -1,169 +1,27 @@
-2018-06-29 00:06:31.442 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 00:16:31.465 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 00:26:31.474 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 00:36:31.483 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 00:46:31.492 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 00:56:31.501 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 01:06:31.510 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 01:16:31.518 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 01:26:31.526 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 01:36:31.534 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 01:46:31.543 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 01:56:31.552 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 02:06:31.561 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 02:16:31.570 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 02:26:31.579 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 02:36:31.588 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 02:46:31.597 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 02:56:31.606 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 03:06:31.615 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 03:16:31.623 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 03:26:31.632 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 03:36:31.640 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 03:46:31.649 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 03:56:31.658 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 04:06:31.666 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 04:16:31.675 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 04:26:31.684 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 04:36:31.692 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 04:46:31.701 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 04:56:31.710 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 05:06:31.718 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 05:16:31.727 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 05:26:31.736 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 05:36:31.745 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 05:46:31.754 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 05:56:31.763 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 06:06:31.772 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 06:16:31.781 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 06:26:31.790 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 06:36:31.799 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 06:46:31.808 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 06:56:31.817 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 07:06:31.825 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 07:16:31.834 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 07:26:31.843 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 07:36:31.851 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 07:46:31.860 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 07:56:31.868 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 08:06:31.877 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 08:16:31.886 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 08:26:31.895 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 08:36:31.903 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 08:46:31.911 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 08:56:31.920 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 09:00:56.189 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 09:00:57.281 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 09:00:58.529 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 09:00:59.164 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 09:01:00.823 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 09:02:05.812 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 09:10:59.172 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 09:37:06.443 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 09:37:07.545 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 09:37:08.900 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 09:37:09.544 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 09:37:11.334 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 09:47:09.561 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 09:57:09.577 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 10:07:09.594 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 10:17:09.611 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 10:28:15.398 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 10:28:16.494 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:28:17.690 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:28:18.381 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 10:28:19.932 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 10:38:18.398 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 10:42:48.577 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 10:42:49.674 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:42:50.888 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:42:51.591 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 10:42:53.165 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 10:50:40.574 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 10:50:41.624 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:50:42.842 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 10:50:43.565 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 10:50:45.115 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:00:43.582 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 11:03:40.087 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:03:41.186 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:03:42.417 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:03:43.184 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 11:03:44.740 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:09:51.636 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:09:52.442 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 11:09:52.443 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 11:09:52.563 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:09:53.413 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:09:54.177 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 11:09:55.858 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:16:02.614 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:16:03.413 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 11:16:03.414 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 11:16:03.535 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:16:04.387 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:16:05.134 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 11:16:07.222 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:18:08.184 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:18:09.046 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 11:18:09.047 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 11:18:09.168 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:18:10.022 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 11:18:10.792 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 11:18:12.847 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 11:28:10.809 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 11:38:10.826 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 11:48:10.843 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 11:58:10.860 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 12:08:10.877 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 12:18:10.894 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 12:28:10.912 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 12:38:10.929 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 12:48:10.946 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 12:58:10.963 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 13:08:10.980 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 13:18:10.997 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 13:28:11.014 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 13:38:11.031 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 13:48:11.048 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 13:58:11.065 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 14:08:11.082 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 14:18:11.099 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 14:28:11.116 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 14:38:11.133 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 14:48:11.150 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 14:58:11.167 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 15:08:11.183 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 15:18:11.200 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 15:21:23.693 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 15:21:24.519 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 15:21:24.519 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 15:21:24.644 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 15:21:25.492 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 15:21:26.257 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 15:21:28.280 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 15:31:26.274 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 15:41:26.291 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 15:51:26.312 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 16:01:26.329 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 16:11:26.347 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 16:21:26.363 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 16:31:26.381 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 16:41:26.398 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 16:51:26.415 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 17:01:26.432 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 17:11:26.449 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 17:21:26.466 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 17:31:26.482 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 17:41:26.499 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 17:51:26.516 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 18:01:26.533 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 18:11:26.549 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 18:12:51.892 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 18:12:52.707 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
-2018-06-29 18:12:52.707 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2018-06-29 18:12:52.828 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 18:12:53.672 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
-2018-06-29 18:12:54.467 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
-2018-06-29 18:12:56.469 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
-2018-06-29 18:22:54.484 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 11:44:28.829 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-06-30 11:44:30.259 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-30 11:44:30.260 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-30 11:44:30.437 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-30 11:44:35.448 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-30 11:44:36.509 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 11:44:38.926 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-06-30 13:29:53.999 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-06-30 13:29:55.242 WARN  io.undertow.websockets.jsr Line:67  - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-06-30 13:29:55.243 WARN  io.undertow.websockets.jsr Line:76  - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-06-30 13:29:55.408 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-30 13:29:58.819 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2018-06-30 13:29:59.933 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 13:30:02.011 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:140 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/discovery-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-06-30 13:39:59.945 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 13:49:59.948 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 13:59:59.950 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 14:09:59.953 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 14:19:59.956 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 14:29:59.957 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 14:39:59.959 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 14:49:59.961 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 14:59:59.963 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 15:09:59.965 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 15:19:59.967 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 15:29:59.969 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry
+2018-06-30 15:39:59.971 WARN  com.netflix.eureka.cluster.PeerEurekaNodes Line:156 - The replica size seems to be empty. Check the route 53 DNS Registry

@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.dangdang:elastic-job-lite-core:2.1.5">
     <CLASSES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.dangdang/elastic-job-lite-core/2.1.5/7289ddc40802d6efd84cc8422b4c142b640239fe/elastic-job-lite-core-2.1.5.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dangdang/elastic-job-lite-core/2.1.5/7289ddc40802d6efd84cc8422b4c142b640239fe/elastic-job-lite-core-2.1.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.dangdang/elastic-job-lite-core/2.1.5/8a4847f2cf9026a3e158a5e1de7626712745d1cf/elastic-job-lite-core-2.1.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dangdang/elastic-job-lite-core/2.1.5/8a4847f2cf9026a3e158a5e1de7626712745d1cf/elastic-job-lite-core-2.1.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.luhuiguo:fastdfs-spring-boot-starter:0.2.0">
     <CLASSES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.luhuiguo/fastdfs-spring-boot-starter/0.2.0/5704e35200047ed1b3e11f1024592f8a33cdb7b5/fastdfs-spring-boot-starter-0.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.luhuiguo/fastdfs-spring-boot-starter/0.2.0/5704e35200047ed1b3e11f1024592f8a33cdb7b5/fastdfs-spring-boot-starter-0.2.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.luhuiguo/fastdfs-spring-boot-starter/0.2.0/9cb07acc95b1c04c376ab203102f71b262c8bdbf/fastdfs-spring-boot-starter-0.2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.luhuiguo/fastdfs-spring-boot-starter/0.2.0/9cb07acc95b1c04c376ab203102f71b262c8bdbf/fastdfs-spring-boot-starter-0.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.luhuiguo:fastdfs-client:0.4.0">
     <CLASSES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.luhuiguo/fastdfs-client/0.4.0/5b512ba3c3af8876317322bf4f0244935b93aa93/fastdfs-client-0.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.luhuiguo/fastdfs-client/0.4.0/5b512ba3c3af8876317322bf4f0244935b93aa93/fastdfs-client-0.4.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/gradle/repo/caches/modules-2/files-2.1/com.luhuiguo/fastdfs-client/0.4.0/2290b19e18e8cca7d21223d258fbd9682abf4c48/fastdfs-client-0.4.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.luhuiguo/fastdfs-client/0.4.0/2290b19e18e8cca7d21223d258fbd9682abf4c48/fastdfs-client-0.4.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
